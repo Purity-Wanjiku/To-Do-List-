@@ -3,49 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To-Do List</title>
-    <link rel="stylesheet" href="/index.css">
-
-   
+    <title>Try a to-do</title>
+    <link rel="stylesheet" href="/API-Assignment/try.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 <body>
+     
+<form id="form">
+    <h1>STAY AHEAD OF TIME</h1>
+    <input type="text" id="note" placeholder="Add note" required maxlength="10">
+    <span><input type="submit" value="Save" id="savebtn" ></span>
+    <br>
+    <br>
+    <br>
+    <h2>Work to-do</h2>
+    <div id="container"> 
+        <!-- This is where the list will be displayed -->
+    </div>
 
-<header>
-    <h1>TO-DO LIST</h1>
-    <div id="container">
-    <form id="form">
-     <input type="text" id="task1" placeholder="New task?"/>
-     <input type="submit" value="Add Task" id="submit"/>
-
-    </form>
-  </div>
-</header>
-
-<main>
-
-<section class="task-list">
-    <h2>Tasks</h2>
-      <div id="tasks">
-
-           <!-- <div class="task">
-             <div class="content">
-                <input type="text" class="text" value="My birthday is coming up!" readonly>
-                
-             </div>
-               <div class="actions">
-                <button class="edit">Edit</button>
-                <button class="delete">Delete</button>
-               </div>
-           </div> -->
-
-
-      </div>
-
-</section>
-
-</main>
-
-
-<script src="/index.js"></script>
+</form>
+     <script src="/API-Assignment/try.js"></script>
 </body>
 </html>
